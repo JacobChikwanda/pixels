@@ -3,3 +3,31 @@
     margin: 0;
     padding: 0;
 }
+
+/* General Classes */
+.button {
+    font-size: 1.1em;
+    padding-inline: 1.5em;
+    padding-block: 1em;
+    border-radius: 8px;
+}
+
+/* Login Template Styles */
+#login_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(198, 198, 198);
+    padding: 1em;
+    align-items: center;
+}
+
+#login_logo {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+
+#login_header p {
+    background-color: green;
+}
